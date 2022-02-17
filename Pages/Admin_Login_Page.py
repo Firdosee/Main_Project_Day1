@@ -17,6 +17,7 @@ class Login_Page(Base_Page):
     All_links_of_dashboard = "//li//span"
     Dashboard = (By.XPATH, "//*[text()='Dashboard']")
     log = test_Base().getLogger()
+    Logout = (By.XPATH, "//*[@class='fa fa-sign-out']")
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -25,6 +26,11 @@ class Login_Page(Base_Page):
         self.log.info("Navigating to All Dashboard...")
         self.click_operation(Login_Page.Dashboard)
         self.log.info("Into Dashboard section")
+
+    def logout(self):
+        self.log.info("Logging out...")
+        self.click_operation(Login_Page.Logout)
+        self.log.info("Successfully Logged out")
 
     def base_login_to_application(self):
         #global log

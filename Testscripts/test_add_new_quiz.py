@@ -19,7 +19,9 @@ class Test_Add_New_Quiz(test_Base):
             self.Allquiz.navigate_to_quiz_section()
             a = self.login.is_text_present(quizname)
             #assert True == a
-            self.Allquiz.Adding_question_to_quiz(quizname)
+            batch = self.Allquiz.Adding_question_to_quiz(quizname)
+            self.login.log.info("Batch is successfully returned"+" "+batch)
+            self.login.logout()
         except Exception as e:
             self.login.log.error("Could not add questions to quiz...")
             self.login.log.info(e)

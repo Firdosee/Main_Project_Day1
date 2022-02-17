@@ -13,6 +13,7 @@ class Test_Loginn(test_Base):
             self.login.log.info("Navigating to login page of application HQM...")
             self.login.base_login_to_application()
             self.login.log.info("Login functionality for admin user is successfully validated")
+            self.login.logout()
         except Exception as e:
             self.login.log.error("Login functionality for admin user failed")
             self.login.log.info(e)

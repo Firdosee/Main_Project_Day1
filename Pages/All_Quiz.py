@@ -64,15 +64,13 @@ class All_Quiz(Base_Page):
 
         t4 = Test_Data()
         dict_details = t4.getTestData("admin", "AddQuestion")
-        publish_quiz = "//*[text()='" + quiz_name + "']/parent::tr//button[text()='Publish Quiz']"
+        publish_quiz = (By.XPATH, "//*[text()='" + quiz_name + "']/parent::tr//button[text()='Publish Quiz']")
         Add_question = "//*[text()='" + quiz_name + "']/parent::tr//button[text()='Add Question']"
-        Add_batch = "//*[text()='HashPPA']/parent::tr/td[5]//select[@name='batch']"
+        Add_batch = "//*[text()='" + quiz_name + "']/parent::tr/td[5]//select[@name='batch']"
         self.log.info("Adding new questions to quiz...")
         # self.log.info("quiz name is" + quiz)
         element = self.driver.find_element_by_xpath(All_Quiz.batch_scroll)
-        #self.log.info("Adding new questions to quiz...2")
         self.driver.execute_script("arguments[0].scrollIntoView();", element)
-        #self.log.info("Adding new questions to quiz...3")
         self.log.info(Add_question)
         element = self.driver.find_element_by_xpath(Add_question)
         self.driver.execute_script("arguments[0].click();", element)
@@ -89,7 +87,7 @@ class All_Quiz(Base_Page):
         options = [x for x in select_box.find_elements_by_tag_name("option")]
         count = 1
         for element in options:
-            if count == 2:
+            if count == 4:
                 batch = element.text
                 self.log.info(batch)
                 print(element.text)
@@ -98,4 +96,5 @@ class All_Quiz(Base_Page):
             count = count + 1
             time.sleep(5)
         self.click_operation(publish_quiz)
+        self.log.info("Quiz is published successfully")
         return batch
