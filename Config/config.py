@@ -1,4 +1,6 @@
 import openpyxl
+import string
+import random
 
 
 class Test_Data:
@@ -23,3 +25,12 @@ class Test_Data:
             return data_dict
         except FileNotFoundError as e:
             print("Exception occurred while performing file operation", e)
+
+    def create_random_text(self):
+        S = 3
+        ran = ''.join(random.choices(string.ascii_uppercase + string.digits, k=S))
+        print("The randomly generated string is : " + str(ran))
+        ran = str(ran)
+        print(ran)
+        return ran
+

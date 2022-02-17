@@ -4,6 +4,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common import keys
 from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 
 
@@ -79,3 +80,23 @@ class Base_Page:
             return True
         else:
             return False
+
+    def get_all_dropdown_option(self, locator):
+        select_box = self.driver.find_element_by_xpath(locator)
+        options = [x for x in select_box.find_elements_by_tag_name("option")]
+        op = ""
+        for element in options:
+            print(element.text)
+                  #get_attribute("value"))
+            op = op +" "+ element.text
+        return op
+
+    def select_option_dropdown(self, locator, index):
+        ddelement = Select(self.driver.find_element_by_xpath(locator))
+        ddelement.select_by_index(index)
+
+    def select_option_byvisibletext(self, locator, text):
+        ddelement = Select(self.driver.find_element_by_xpath(locator))
+        ddelement.select_by_visible_text(text)
+
+

@@ -1,183 +1,44 @@
-2022-02-16 19:39:49,971 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:39:49,971 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:39:49,971 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:39:49,989 :INFO : <module> :Getting Test Data
-2022-02-16 19:39:49,989 :INFO : <module> :Getting Test Data
-2022-02-16 19:39:49,989 :INFO : <module> :Getting Test Data
-2022-02-16 19:39:50,015 :INFO : <module> :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz'}
-2022-02-16 19:39:50,015 :INFO : <module> :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz'}
-2022-02-16 19:39:50,015 :INFO : <module> :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz'}
-2022-02-16 19:39:50,016 :INFO : <module> :Entering the url
-2022-02-16 19:39:50,016 :INFO : <module> :Entering the url
-2022-02-16 19:39:50,016 :INFO : <module> :Entering the url
-2022-02-16 19:39:53,403 :INFO : <module> :Entering the Username
-2022-02-16 19:39:53,403 :INFO : <module> :Entering the Username
-2022-02-16 19:39:53,403 :INFO : <module> :Entering the Username
-2022-02-16 19:39:58,579 :INFO : <module> :Entering the Password
-2022-02-16 19:39:58,579 :INFO : <module> :Entering the Password
-2022-02-16 19:39:58,579 :INFO : <module> :Entering the Password
-2022-02-16 19:40:03,680 :INFO : <module> :Clicking login button
-2022-02-16 19:40:03,680 :INFO : <module> :Clicking login button
-2022-02-16 19:40:03,680 :INFO : <module> :Clicking login button
-2022-02-16 19:40:08,819 :INFO : <module> :Validating if the user is successfully logged in
-2022-02-16 19:40:08,819 :INFO : <module> :Validating if the user is successfully logged in
-2022-02-16 19:40:08,819 :INFO : <module> :Validating if the user is successfully logged in
-2022-02-16 19:40:08,819 :INFO : <module> :user is successfully logged in the account
-2022-02-16 19:40:08,819 :INFO : <module> :user is successfully logged in the account
-2022-02-16 19:40:08,819 :INFO : <module> :user is successfully logged in the account
-2022-02-16 19:40:08,819 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:40:08,819 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:40:08,819 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:40:13,891 :INFO : <module> :Into quiz section
-2022-02-16 19:40:13,891 :INFO : <module> :Into quiz section
-2022-02-16 19:40:13,891 :INFO : <module> :Into quiz section
-2022-02-16 19:40:13,892 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:40:13,892 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:40:13,892 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:40:13,915 :INFO : <module> :<class 'list'>
-2022-02-16 19:40:13,915 :INFO : <module> :<class 'list'>
-2022-02-16 19:40:13,915 :INFO : <module> :<class 'list'>
-2022-02-16 19:40:13,915 :INFO : <module> :54
-2022-02-16 19:40:13,915 :INFO : <module> :54
-2022-02-16 19:40:13,915 :INFO : <module> :54
-2022-02-16 19:40:13,916 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:40:13,916 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:40:13,916 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:40:44,427 :ERROR : <module> :Quiz Count does not match in Quiz section
-2022-02-16 19:40:44,427 :ERROR : <module> :Quiz Count does not match in Quiz section
-2022-02-16 19:40:44,427 :ERROR : <module> :Quiz Count does not match in Quiz section
-2022-02-16 19:40:44,427 :INFO : <module> :Message: 
-Stacktrace:
-0   chromedriver                        0x0000000101ca3e69 chromedriver + 5160553
-1   chromedriver                        0x0000000101c2e593 chromedriver + 4679059
-2   chromedriver                        0x00000001017e22c8 chromedriver + 172744
-3   chromedriver                        0x0000000101817b62 chromedriver + 392034
-4   chromedriver                        0x0000000101817d21 chromedriver + 392481
-5   chromedriver                        0x000000010184a304 chromedriver + 598788
-6   chromedriver                        0x00000001018353fd chromedriver + 513021
-7   chromedriver                        0x00000001018480ab chromedriver + 589995
-8   chromedriver                        0x0000000101835623 chromedriver + 513571
-9   chromedriver                        0x000000010180adce chromedriver + 339406
-10  chromedriver                        0x000000010180c105 chromedriver + 344325
-11  chromedriver                        0x0000000101c5f23e chromedriver + 4878910
-12  chromedriver                        0x0000000101c76d17 chromedriver + 4975895
-13  chromedriver                        0x0000000101c7ca3f chromedriver + 4999743
-14  chromedriver                        0x0000000101c7761a chromedriver + 4978202
-15  chromedriver                        0x0000000101c53bb1 chromedriver + 4832177
-16  chromedriver                        0x0000000101c93fd8 chromedriver + 5095384
-17  chromedriver                        0x0000000101c94161 chromedriver + 5095777
-18  chromedriver                        0x0000000101cab2a8 chromedriver + 5190312
-19  libsystem_pthread.dylib             0x00007fff204408fc _pthread_start + 224
-20  libsystem_pthread.dylib             0x00007fff2043c443 thread_start + 15
-
-2022-02-16 19:40:44,427 :INFO : <module> :Message: 
-Stacktrace:
-0   chromedriver                        0x0000000101ca3e69 chromedriver + 5160553
-1   chromedriver                        0x0000000101c2e593 chromedriver + 4679059
-2   chromedriver                        0x00000001017e22c8 chromedriver + 172744
-3   chromedriver                        0x0000000101817b62 chromedriver + 392034
-4   chromedriver                        0x0000000101817d21 chromedriver + 392481
-5   chromedriver                        0x000000010184a304 chromedriver + 598788
-6   chromedriver                        0x00000001018353fd chromedriver + 513021
-7   chromedriver                        0x00000001018480ab chromedriver + 589995
-8   chromedriver                        0x0000000101835623 chromedriver + 513571
-9   chromedriver                        0x000000010180adce chromedriver + 339406
-10  chromedriver                        0x000000010180c105 chromedriver + 344325
-11  chromedriver                        0x0000000101c5f23e chromedriver + 4878910
-12  chromedriver                        0x0000000101c76d17 chromedriver + 4975895
-13  chromedriver                        0x0000000101c7ca3f chromedriver + 4999743
-14  chromedriver                        0x0000000101c7761a chromedriver + 4978202
-15  chromedriver                        0x0000000101c53bb1 chromedriver + 4832177
-16  chromedriver                        0x0000000101c93fd8 chromedriver + 5095384
-17  chromedriver                        0x0000000101c94161 chromedriver + 5095777
-18  chromedriver                        0x0000000101cab2a8 chromedriver + 5190312
-19  libsystem_pthread.dylib             0x00007fff204408fc _pthread_start + 224
-20  libsystem_pthread.dylib             0x00007fff2043c443 thread_start + 15
-
-2022-02-16 19:40:44,427 :INFO : <module> :Message: 
-Stacktrace:
-0   chromedriver                        0x0000000101ca3e69 chromedriver + 5160553
-1   chromedriver                        0x0000000101c2e593 chromedriver + 4679059
-2   chromedriver                        0x00000001017e22c8 chromedriver + 172744
-3   chromedriver                        0x0000000101817b62 chromedriver + 392034
-4   chromedriver                        0x0000000101817d21 chromedriver + 392481
-5   chromedriver                        0x000000010184a304 chromedriver + 598788
-6   chromedriver                        0x00000001018353fd chromedriver + 513021
-7   chromedriver                        0x00000001018480ab chromedriver + 589995
-8   chromedriver                        0x0000000101835623 chromedriver + 513571
-9   chromedriver                        0x000000010180adce chromedriver + 339406
-10  chromedriver                        0x000000010180c105 chromedriver + 344325
-11  chromedriver                        0x0000000101c5f23e chromedriver + 4878910
-12  chromedriver                        0x0000000101c76d17 chromedriver + 4975895
-13  chromedriver                        0x0000000101c7ca3f chromedriver + 4999743
-14  chromedriver                        0x0000000101c7761a chromedriver + 4978202
-15  chromedriver                        0x0000000101c53bb1 chromedriver + 4832177
-16  chromedriver                        0x0000000101c93fd8 chromedriver + 5095384
-17  chromedriver                        0x0000000101c94161 chromedriver + 5095777
-18  chromedriver                        0x0000000101cab2a8 chromedriver + 5190312
-19  libsystem_pthread.dylib             0x00007fff204408fc _pthread_start + 224
-20  libsystem_pthread.dylib             0x00007fff2043c443 thread_start + 15
-
-2022-02-16 19:43:47,726 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:43:47,726 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:43:47,726 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:43:47,744 :INFO : <module> :Getting Test Data
-2022-02-16 19:43:47,744 :INFO : <module> :Getting Test Data
-2022-02-16 19:43:47,744 :INFO : <module> :Getting Test Data
-2022-02-16 19:43:47,765 :INFO : <module> :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz'}
-2022-02-16 19:43:47,765 :INFO : <module> :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz'}
-2022-02-16 19:43:47,765 :INFO : <module> :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz'}
-2022-02-16 19:43:47,765 :INFO : <module> :Entering the url
-2022-02-16 19:43:47,765 :INFO : <module> :Entering the url
-2022-02-16 19:43:47,765 :INFO : <module> :Entering the url
-2022-02-16 19:43:51,264 :INFO : <module> :Entering the Username
-2022-02-16 19:43:51,264 :INFO : <module> :Entering the Username
-2022-02-16 19:43:51,264 :INFO : <module> :Entering the Username
-2022-02-16 19:43:56,424 :INFO : <module> :Entering the Password
-2022-02-16 19:43:56,424 :INFO : <module> :Entering the Password
-2022-02-16 19:43:56,424 :INFO : <module> :Entering the Password
-2022-02-16 19:44:01,525 :INFO : <module> :Clicking login button
-2022-02-16 19:44:01,525 :INFO : <module> :Clicking login button
-2022-02-16 19:44:01,525 :INFO : <module> :Clicking login button
-2022-02-16 19:44:06,660 :INFO : <module> :Validating if the user is successfully logged in
-2022-02-16 19:44:06,660 :INFO : <module> :Validating if the user is successfully logged in
-2022-02-16 19:44:06,660 :INFO : <module> :Validating if the user is successfully logged in
-2022-02-16 19:44:06,660 :INFO : <module> :user is successfully logged in the account
-2022-02-16 19:44:06,660 :INFO : <module> :user is successfully logged in the account
-2022-02-16 19:44:06,660 :INFO : <module> :user is successfully logged in the account
-2022-02-16 19:44:06,660 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:44:06,660 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:44:06,660 :INFO : <module> :Navigating to All Quiz section...
-2022-02-16 19:44:11,730 :INFO : <module> :Into quiz section
-2022-02-16 19:44:11,730 :INFO : <module> :Into quiz section
-2022-02-16 19:44:11,730 :INFO : <module> :Into quiz section
-2022-02-16 19:44:11,730 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:44:11,730 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:44:11,730 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:44:11,745 :INFO : <module> :<class 'list'>
-2022-02-16 19:44:11,745 :INFO : <module> :<class 'list'>
-2022-02-16 19:44:11,745 :INFO : <module> :<class 'list'>
-2022-02-16 19:44:11,745 :INFO : <module> :54
-2022-02-16 19:44:11,745 :INFO : <module> :54
-2022-02-16 19:44:11,745 :INFO : <module> :54
-2022-02-16 19:44:11,745 :INFO : <module> :Navigating to All Dashboard...
-2022-02-16 19:44:11,745 :INFO : <module> :Navigating to All Dashboard...
-2022-02-16 19:44:11,745 :INFO : <module> :Navigating to All Dashboard...
-2022-02-16 19:44:16,836 :INFO : <module> :Into Dashboard section
-2022-02-16 19:44:16,836 :INFO : <module> :Into Dashboard section
-2022-02-16 19:44:16,836 :INFO : <module> :Into Dashboard section
-2022-02-16 19:44:16,836 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:44:16,836 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:44:16,836 :INFO : <module> :Getting total number of quiz present in dashboard
-2022-02-16 19:44:16,871 :INFO : <module> :54
-2022-02-16 19:44:16,871 :INFO : <module> :54
-2022-02-16 19:44:16,871 :INFO : <module> :54
-2022-02-16 19:44:16,872 :INFO : <module> :<class 'str'>
-2022-02-16 19:44:16,872 :INFO : <module> :<class 'str'>
-2022-02-16 19:44:16,872 :INFO : <module> :<class 'str'>
-2022-02-16 19:44:16,872 :INFO : <module> :54
-2022-02-16 19:44:16,872 :INFO : <module> :54
-2022-02-16 19:44:16,872 :INFO : <module> :54
-2022-02-16 19:44:16,872 :ERROR : <module> :Quiz Count is successfully validated in All Quiz section
-2022-02-16 19:44:16,872 :ERROR : <module> :Quiz Count is successfully validated in All Quiz section
-2022-02-16 19:44:16,872 :ERROR : <module> :Quiz Count is successfully validated in All Quiz section
+2022-02-17 17:04:02,998 :INFO : Login_Page :Navigating to login page of application HQM...
+2022-02-17 17:04:02,998 :INFO : Login_Page :Getting Test Data
+2022-02-17 17:04:03,037 :INFO : Login_Page :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz', 'question': None, 'option1': None, 'option2': None, 'option3': None, 'option4': None, 'answer': None, 'marks': None}
+2022-02-17 17:04:03,038 :INFO : Login_Page :Entering the url
+2022-02-17 17:04:05,895 :INFO : Login_Page :Entering the Username
+2022-02-17 17:04:11,083 :INFO : Login_Page :Entering the Password
+2022-02-17 17:04:16,190 :INFO : Login_Page :Clicking login button
+2022-02-17 17:04:21,320 :INFO : Login_Page :Validating if the user is successfully logged in
+2022-02-17 17:04:21,320 :INFO : Login_Page :user is successfully logged in the account
+2022-02-17 17:04:21,320 :INFO : Login_Page :Login functionality for admin user is successfully validated
+2022-02-17 17:04:21,320 :INFO : Create_Quiz :Navigating to Quiz Creation section...
+2022-02-17 17:04:26,394 :INFO : Create_Quiz :Into Quiz creation section
+2022-02-17 17:04:26,394 :INFO : Create_Quiz :Creating a new quiz
+2022-02-17 17:04:36,740 :INFO : Create_Quiz :Clicking on create quiz button...
+2022-02-17 17:04:36,741 :INFO : All_Quiz :Navigating to All Quiz section...
+2022-02-17 17:04:41,846 :INFO : All_Quiz :Into quiz section
+2022-02-17 17:04:41,979 :INFO : All_Quiz :Adding new questions to quiz...
+2022-02-17 17:04:41,993 :INFO : All_Quiz :Adding new questions to quiz...2
+2022-02-17 17:04:41,997 :INFO : All_Quiz :Adding new questions to quiz...3
+2022-02-17 17:04:41,998 :INFO : All_Quiz ://*[text()='HashQYC']/parent::tr//button[text()='Add Question']
+2022-02-17 17:05:28,677 :INFO : All_Quiz :12.2
+2022-02-17 17:05:28,689 :ERROR : Login_Page :Could not add questions to quiz...
+2022-02-17 17:05:28,690 :INFO : Login_Page :find_element() takes from 1 to 3 positional arguments but 64 were given
+2022-02-17 17:07:19,550 :INFO : Login_Page :Navigating to login page of application HQM...
+2022-02-17 17:07:19,570 :INFO : Login_Page :Getting Test Data
+2022-02-17 17:07:19,589 :INFO : Login_Page :{'url': 'https://hqm-frontend-urtjok3rza-wl.a.run.app/login', 'username': 'admin', 'password': '1234@admin', 'logged_in_user': 'Admin Admin', 'Dashboard_links': 'Dashboard All Quiz Category Batch Quiz', 'question': None, 'option1': None, 'option2': None, 'option3': None, 'option4': None, 'answer': None, 'marks': None}
+2022-02-17 17:07:19,589 :INFO : Login_Page :Entering the url
+2022-02-17 17:07:23,859 :INFO : Login_Page :Entering the Username
+2022-02-17 17:07:29,052 :INFO : Login_Page :Entering the Password
+2022-02-17 17:07:34,162 :INFO : Login_Page :Clicking login button
+2022-02-17 17:07:39,288 :INFO : Login_Page :Validating if the user is successfully logged in
+2022-02-17 17:07:39,288 :INFO : Login_Page :user is successfully logged in the account
+2022-02-17 17:07:39,288 :INFO : Login_Page :Login functionality for admin user is successfully validated
+2022-02-17 17:07:39,288 :INFO : Create_Quiz :Navigating to Quiz Creation section...
+2022-02-17 17:07:44,384 :INFO : Create_Quiz :Into Quiz creation section
+2022-02-17 17:07:44,385 :INFO : Create_Quiz :Creating a new quiz
+2022-02-17 17:07:54,710 :INFO : Create_Quiz :Clicking on create quiz button...
+2022-02-17 17:07:54,711 :INFO : All_Quiz :Navigating to All Quiz section...
+2022-02-17 17:07:59,831 :INFO : All_Quiz :Into quiz section
+2022-02-17 17:07:59,965 :INFO : All_Quiz :Adding new questions to quiz...
+2022-02-17 17:07:59,984 :INFO : All_Quiz ://*[text()='HashH65']/parent::tr//button[text()='Add Question']
+2022-02-17 17:08:41,641 :INFO : All_Quiz :12.1
+2022-02-17 17:08:41,648 :ERROR : Login_Page :Could not add questions to quiz...
+2022-02-17 17:08:41,648 :INFO : Login_Page :find_element() takes from 1 to 3 positional arguments but 64 were given

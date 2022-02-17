@@ -17,3 +17,4 @@ class test_Base:
         logger.addHandler(fileHandler)  # filehandler object
         logger.setLevel(logging.DEBUG)
         return logger
+
